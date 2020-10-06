@@ -4,23 +4,28 @@ by Brendan Doherty\
 */
 
 function setup() {
-    createCanvas(640, 360);
-}
-
-function draw() {
-    background('lightblue')
-
-    //face
-    rect(400, 500, 600, 60)
-
-
-    //eyes
-    circle( 170, 90, 30)
-    circle( 210, 90, 30)
-
+    createCanvas(400, 400);
+  }
+  
+  function draw() {
+   noStroke();
+     background(5,75,5);
+    
+    //face shape
+    fill(55,mouseY,55);
+    ellipse(210,200,160,500);
+    
     //nose
-    square( 190, 120, 30)
+    fill(120);
+    triangle(200,80,100,240,230,240);
+    
     //mouth
-    rect(184, 180, 100, 50, 10)
-}
-
+    fill(255,0,0);
+    ellipse(200, map(mouseY,0,height,250,300), 150, 100);
+    
+    //eyeballs
+    fill(200);
+    ellipse(155,75,20,20);
+    ellipse(250,75,20,20);
+  
+  }
