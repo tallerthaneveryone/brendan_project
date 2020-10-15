@@ -43,6 +43,6 @@ image(pisaImage, 0, 0)
     text('                 <                     >', width / 15, height / 2);
 
     
-
+sdgsg 
     
 }
