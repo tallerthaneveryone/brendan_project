@@ -25,24 +25,15 @@ function draw() {
 
 image(pisaImage, 0, 0)
 
-
-
-
-
-
 /*text*/
-    textSize(30);
+    textSize(50);
     
     fill(144, 85, 167);
     stroke(255)
     textFont('Staatliches')
     
     textAlign(LEFT, CENTER);
+    
+    text('      <                 >', width / 15, height / 2);
 
-    
-    text('                 <                     >', width / 15, height / 2);
-
-    
-sdgsg 
-    
 }
