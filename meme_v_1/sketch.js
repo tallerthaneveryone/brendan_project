@@ -3,9 +3,16 @@ by brendan doherty
 */
 
 
+var pisaImage;
+
+function preload(){
+    pisaImage = loadImage ('pisa.jpg');
+}
+
 function setup(){
     
-    createCanvas(640,360);
+    createCanvas(420,640);
+    
     
 }
 
@@ -14,22 +21,28 @@ function draw() {
     
    
 
+/*image*/
+
+image(pisaImage, 0, 0)
 
 
 
 
 
 
-
+/*text*/
     textSize(30);
     
     fill(144, 85, 167);
     stroke(255)
-    textFont('monospace')
+    textFont('Staatliches')
     
     textAlign(LEFT, CENTER);
 
-    text('Taller Than Everyone', width / 9, height / 9);
+    
+    text('                 <                     >', width / 15, height / 2);
+
+    
 
     
 }
