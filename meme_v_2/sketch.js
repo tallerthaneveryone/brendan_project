@@ -3,27 +3,27 @@
     conditional logic
     */
 
+    var pisaImage
+
+    function preload() {
+        pisaImage = loadImage("pisa.jpg")
+        thumbnailImage = loadImage("thumbnail.jpg")
+    }
+
     function setup() {
-        createCanvas(640,360);
+        createCanvas(640,640);
     }
 
     function draw() {
         background(0);
 
-        let x = width / 2;
-        let h = height / 3;
-        
-
-
-    
-            fill(255)
-            noStorke();
-            textSize(20);
-            text(round(mouseX) + ' '+ width/2, 10, 20)
-
-            stroke(255);
-            strokeWeight(2);
-            line(width / 2, 0, width / 2, height);
-    
+        if (mouseIsPressed) {
+            Image(pisaImage, 0, 0);
+        } else {
+            Image(thumbnailImage, 0, 0)
         }
+
+    }
+
+
 
