@@ -30,7 +30,7 @@ function draw() {
     fill(c);
     //ellipse(x, y, s)
     textSize(s);
-    textAlign(Center, Center);
+    textAlign(CENTER, CENTER);
     text("DVD", x, y, s);
     ellipse(x, y, s);
 
