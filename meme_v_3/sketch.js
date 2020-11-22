@@ -5,11 +5,17 @@ animated meme/logo
 
 var x = 0;
 var y = 100; 
-var s = 100;// size
+var s = 25;// size
 var xSpeed = 3;
 var ySpeed = 3;
-
 var c; // color
+
+
+var planeImage;
+
+function preload() {
+    planeImage = loadImage('plane.png');
+}
 
 
 function setup(){
@@ -27,12 +33,17 @@ function setup(){
 function draw() {
     background(220);
 
+    tint(c);
+    image(planeImage, x, y, s, s);
+
     fill(c);
     //ellipse(x, y, s)
     textSize(s);
     textAlign(CENTER, CENTER);
-    text("DVD", x, y, s);
-    ellipse(x, y, s);
+    text('landing or departing', x, y, s);
+    
+
+    
 
     x += xSpeed;
     y += ySpeed;
