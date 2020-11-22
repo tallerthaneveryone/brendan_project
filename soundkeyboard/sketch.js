@@ -5,11 +5,11 @@ sound sampler v 1
 var vanjieSound;
 
 function preload () {
-    vanjieSound = loadSound('vanjie.mp3')
+    vanjieSound = loadSound('vanjie.mp3');
 }
 
 function setup() {
-    createCanvas(64,360);
+    createCanvas(640,360);
 }
 
 function draw() {
@@ -17,5 +17,5 @@ function draw() {
 }
 
 function mousePressed() {
-    vangieSound.play();
+    vanjieSound.play();
 }
