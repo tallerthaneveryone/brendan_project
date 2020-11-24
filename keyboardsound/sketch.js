@@ -1,5 +1,5 @@
 /*
-sound sampler v 1
+sound keyboard v 1
 */
 
 
