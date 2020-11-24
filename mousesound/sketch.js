@@ -16,7 +16,7 @@ function setup() {
 }
 
 function draw() {
-    background(220);
+    background(100);
 
     if (vanjieSound.isPlaying()) {
         background(8, 40, 15);
