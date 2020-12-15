@@ -24,7 +24,7 @@ function draw() {
 	// trees trunks
 	for (let x = 20; x < height; x += 40) {
 		noStroke();
-		fill('white');
+		fill('saddlebrown');
 		rect(x, height - 20, 05, 200);
     //leafs
 		let g = map(x, 90, width, 175, 60);
