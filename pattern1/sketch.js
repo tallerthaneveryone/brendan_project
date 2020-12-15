@@ -18,7 +18,7 @@ function draw() {
 		
 		stroke('white');
 		strokeWeight(6);
-		triangle(x, height + 18, x + 30, 60, x + 200, width);
+		triangle(x, height + 30, x + 30, 20, x + 180, width);
 	}
 
 	// trees trunks
