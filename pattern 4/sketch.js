@@ -26,7 +26,18 @@ function pattern() {
 
 			fill(r, g, b);
 			
-			circle(x, y, w, h);
+			ellipse(
+			x + random(15, -10), 
+			y + random(-10, 40),
+			w + random(50, -1),
+			h + random(20, -1));
+
+			
+
+			
+
+		
+		
 			
 		}	
 	}
