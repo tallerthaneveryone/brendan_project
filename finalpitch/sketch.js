@@ -51,13 +51,13 @@ function draw() {
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('Users would type their names or words and a sound would play', 50, 100, width - 100);
+		text('Users would type letters or numbers on a keyboard and a sound would play', 50, 100, width - 100);
 	} else if (currentSlide == 4) {
 		// describe the graphics
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('Graphics include the keyboard and the typing', 50, 100, width - 100);
+		text('Graphics show a keyboard as you type', 50, 100, width - 100);
 
 		circle(width/2, height/2, 100);
 	} else if (currentSlide == 5) {
