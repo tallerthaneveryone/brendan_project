@@ -66,7 +66,7 @@ function draw() {
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('Using the keys,down up right and left you can change direction', 50, 100, width - 100);
+		text('Using the keys,down, up, right, and left you can change direction', 50, 100, width - 100);
 
 		square(width/2, height/2, 100);
 	}
