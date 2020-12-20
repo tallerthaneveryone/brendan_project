@@ -1,5 +1,5 @@
 /*
-	final project pitch template
+	final project pitch
 	title
 	description
 	theme
@@ -19,12 +19,13 @@ var backBtnY = nextBtnY;
 var btnW = 100;
 var btnH = 30;
 
+
 function setup() {
 	createCanvas(960, 640);
 }
 
 function draw() {
-	background(51);
+	background(12);
 	noStroke();
 	
 	// slides
@@ -35,7 +36,7 @@ function draw() {
 		textAlign(CENTER, CENTER);
 
 		// fill in your own title
-		text('Type a Tone', width/2, height/2 - 50);
+		text('Video Game', width/2, height/2 - 50);
 		textSize(60);
 		text('By Brendan Doherty', width/2, height/2 + 50);
 	
@@ -44,20 +45,20 @@ function draw() {
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('My project is type a tone', 50, 100, width - 100);
+		text('The goal is to create the basic game of snake, but I would also like to incorporate sound if possible', 50, 100, width - 100);
 
 	} else if (currentSlide == 3) {
 		// describe the interaction
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('Users would type letters or numbers on a keyboard and a sound would play', 50, 100, width - 100);
+		text('When changing direction, sounds of a character would play', 50, 100, width - 100);
 	} else if (currentSlide == 4) {
 		// describe the graphics
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('Graphics show a keyboard as you type', 50, 100, width - 100);
+		text('Using creative commons, family guy image, and hopefully a sound', 50, 100, width - 100);
 
 		circle(width/2, height/2, 100);
 	} else if (currentSlide == 5) {
@@ -65,7 +66,7 @@ function draw() {
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('Includes keystroke movements', 50, 100, width - 100);
+		text('Using the keys,down up right and left you can change direction', 50, 100, width - 100);
 
 		square(width/2, height/2, 100);
 	}
