@@ -18,9 +18,9 @@
         background(0);
 
         if (mouseIsPressed) {
-            Image(pisaImage, 0, 0);
+            image(pisaImage, 0, 0);
         } else {
-            Image(thumbnailImage, 0, 0)
+            image(thumbnailImage, 0, 0)
         }
 
     }
