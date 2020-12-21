@@ -36,7 +36,7 @@ function draw() {
 		textAlign(CENTER, CENTER);
 
 		// fill in your own title
-		text('Video Game', width/2, height/2 - 50);
+		text('Self Portrait and Chaning Background', width/2, height/2 - 50);
 		textSize(60);
 		text('By Brendan Doherty', width/2, height/2 + 50);
 	
@@ -45,28 +45,24 @@ function draw() {
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('The goal is to create the basic game of snake, but I would also like to incorporate sound if possible', 50, 100, width - 100);
+		text('Combining the Self Portrait and using some of the random background color changes used in exercise of pattern', 50, 100, width - 100);
 
 	} else if (currentSlide == 3) {
 		// describe the interaction
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('When changing direction, sounds of a character would play', 50, 100, width - 100);
+		text('you can move the mouse up and down to make the mouth move', 50, 100, width - 100);
 	} else if (currentSlide == 4) {
 		// describe the graphics
 		textAlign(LEFT);
 		fill(255);
 		textSize(50);
-		text('Using creative commons, family guy image, and hopefully a sound', 50, 100, width - 100);
+		text('You can click on the background to change the color', 50, 100, width - 100);
 
 		circle(width/2, height/2, 100);
 	} else if (currentSlide == 5) {
-		// describe the graphics
-		textAlign(LEFT);
-		fill(255);
-		textSize(50);
-		text('Using the keys,down, up, right, and left you can change direction', 50, 100, width - 100);
+
 
 		square(width/2, height/2, 100);
 	}
