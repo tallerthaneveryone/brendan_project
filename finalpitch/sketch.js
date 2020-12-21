@@ -36,7 +36,7 @@ function draw() {
 		textAlign(CENTER, CENTER);
 
 		// fill in your own title
-		text('Self Portrait and Chaning Background', width/2, height/2 - 50);
+		text('Self Portrait/Chaning Background', width/2, height/2 - 50);
 		textSize(60);
 		text('By Brendan Doherty', width/2, height/2 + 50);
 	
